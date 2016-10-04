@@ -1,0 +1,28 @@
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 600px;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.square {
+  display: flex;
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: blue;
+  font-size: 50px;
+}
+
+#turn {
+  font-family: sans-serif;
+  color: red;
+  font-size: 30px;
+}
